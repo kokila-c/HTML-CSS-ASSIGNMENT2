@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-content: space-evenly; */
+  height: 100vh;
+  margin: 0;
+}
+.space {
+  /* display: inline;
+  flex-direction: row;
+  height: 100%;
+  margin: 100px 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-evenly;
+  /* margin-top: 200px; */
+  border-radius: 10px;
+  /* border: 5px red solid; */
+  /* width: auto; */
+  max-width: 750px;
+  /* min-width: 600px; */
+  /* width: fit-content; */
+  width: 100%;
+}
+.cars {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /*align-items: left; */
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  /* border-radius: 10px; */
+  /* align-items: left; */
+  /* width: 40%; using this to keep content in particular width */
+  /* min-width: 200px; using this to keep the height constant and not change according to device  */
+  /* height: 100%; */
+  padding: 25px;
+  /* aspect-ratio: 1/2; */
+}
+.backgrounds {
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+}
+
+#sedan {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+  width: 33%;
+  /* padding: 25px 0;
+  padding-left: 25px; */
+  /* height: 100%; */
+}
+#suv {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(184, 100%, 22%);
+  width: 33%;
+}
+#luxury {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+  width: 33%;
+}
+.buttons {
+  background-color: hsl(0, 0%, 95%);
+  border-style: solid;
+  border-color: hsl(0, 0%, 95%);
+  border-radius: 25px;
+  margin-bottom: 10%;
+  margin-top: 50%;
+  width: fit-content;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-style: bold;
+  padding: 5% 10%;
+}
+#sedan1 {
+  color: hsl(31, 77%, 52%);
+}
+#suv1 {
+  color: hsl(184, 100%, 22%);
+}
+#luxury1 {
+  color: hsl(179, 100%, 13%);
+}
+h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  /* text-align: left; */
+  font-size: 30px;
+  font-stretch: wider;
+  color: hsl(0, 0%, 95%);
+  padding: 5px 0;
+}
+p {
+  font-family: "Lexend Deca", sans-serif;
+  /* font-weight: 400; */
+  color: hsla(0, 0%, 100%, 0.75);
+  text-wrap: wrap;
+  font-size: 15px;
+  line-height: 1.6;
+  /* text-align: left; */
+}
+#img {
+  margin-top: 10px;
+  max-width: 50px;
+  height: auto;
+}
